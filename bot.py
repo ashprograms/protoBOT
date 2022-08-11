@@ -15,7 +15,7 @@ bot = Bot(
 
 try:
     print("Logged in")
-    bot.run("MTAwNzA5NDY2Nzg2NDcxMTI0OQ.GoT29Z.t3TP2zdFTRcG6eALLhlSC4rTyXPbtL3HDgiu4I")
+    bot.run("TOKEN")
     print("\nGoodbye!")
 except Exception as e:
     print(f"Error while logging in: {e}")
